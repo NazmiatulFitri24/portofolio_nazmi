@@ -1,0 +1,197 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f6fc;
+    color: #333;
+}
+
+#nazmi_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 15px 50px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nazmi_logo {
+    font-weight: bold;
+    color: #6b21a8;
+    font-size: 1.2rem;
+}
+
+.nazmi_menu a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #555;
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+
+.nazmi_menu a:hover {
+    color: #9333ea;
+}
+
+.nazmi_home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 50px;
+    background: linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%);
+}
+
+.nazmi_home-text {
+    max-width: 600px;
+}
+
+.nazmi_subtitle {
+    margin: 0;
+    color: #6b21a8;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.nazmi_home h1 {
+    margin: 5px 0;
+    font-size: 2.8rem;
+    color: #2e1065;
+}
+
+.nazmi_home h3 {
+    color: #7c3aed;
+    margin-top: 5px;
+}
+
+.nazmi_hero-buttons {
+    margin-top: 20px;
+}
+
+.nazmi_btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.nazmi_btn-primary {
+    background: #7c3aed;
+    color: white;
+}
+
+.nazmi_btn-primary:hover {
+    background: #6d28d9;
+}
+
+.nazmi_btn-secondary {
+    background: white;
+    color: #7c3aed;
+    border: 1px solid #7c3aed;
+}
+
+.nazmi_btn-secondary:hover {
+    background: #faf5ff;
+}
+
+.nazmi_about, .nazmi_skills, .nazmi_project {
+    padding: 50px;
+    background: #fff;
+    margin-top: 15px;
+}
+
+.nazmi_about h2, .nazmi_skills h2, .nazmi_project h2 {
+    color: #2e1065;
+    border-bottom: 3px solid #7c3aed;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.nazmi_about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.nazmi_about_text {
+    flex: 1;
+    line-height: 1.7;
+}
+
+.nazmi_about_img img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #7c3aed;
+}
+
+.nazmi_skill-list {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.nazmi_skills_box {
+    background: #f3e8ff;
+    color: #581c87;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 1px solid #d8b4fe;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+}
+
+.nazmi_project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.nazmi_project_card {
+    background: #faf5ff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e9d5ff;
+    transition: transform 0.2s;
+}
+
+.nazmi_project_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(124, 58, 237, 0.15);
+}
+
+.nazmi_project_card h3 {
+    color: #6d28d9;
+    margin-top: 0;
+}
+
+#nazmi_footer {
+    background: #2e1065;
+    color: white;
+    padding: 40px 50px;
+    margin-top: 30px;
+}
+
+.nazmi_footer_kiri {
+    float: left;
+}
+
+.nazmi_footer_kanan {
+    float: right;
+    text-align: right;
+}
+
+.nazmi_footer_kanan p {
+    margin: 5px 0;
+}
